@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -printf %f'\in'
+find . -empty -printf %f'\n'
