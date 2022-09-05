@@ -1,2 +1,2 @@
 #!/bin/bash
-<F11>Find . -Type F -Name \*.Gif -Printf "%f\n" | LC_ALL=C sort -f | rev | cut -b 5- | rev
+Find . -Type F -Name \*.Gif -Printf "%f\n" | LC_ALL=C sort -f | rev | cut -b 5- | rev
